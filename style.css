@@ -6,6 +6,46 @@
 }
 
 body {
+  align-items: center;
   font-family: 'Poppins', sans-serif;
   font size: 16px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  color: white;
+  border-radius: 5px;
+}
+
+b {
+  color: hsl(0, 100%, 74%);
+}
+
+.component {
+  display: flex;
+}
+
+.component .blurb {
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.component .form {
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.component .sign-up-button {
+  background-color: hsl(248, 32%, 49%);
+}
+
+.form .free-trial-button {
+  background-color: hsl(154, 59%, 51%);
 }
